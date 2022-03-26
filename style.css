@@ -1,0 +1,84 @@
+body {
+  background-color: lightgreen;
+  background: linear-gradient(#ec38bc, #7303c0);
+}
+.logic {
+  color: snow;
+  margin-left: 30px;
+}
+
+h1 {
+  font-weight: bold;
+}
+h3 {
+  width: 150px;
+  color: snow;
+  border-bottom: 2px solid;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  background-color: #7303c0;
+  margin-left: -38px;
+  justify-content: space-around;
+}
+/* Tombol Dropdown */
+label {
+  margin-top: 26px;
+  margin-left: 20px;
+  background-color: #3498db;
+  color: white;
+  padding: 6.9px;
+  font-size: 18px;
+}
+.dropbtn {
+  margin-top: 26px;
+  margin-left: -4px;
+  background-color: #3498db;
+  color: white;
+  padding: 7px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Tombol dropdown saat mengarahkan kursor & fokus */
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+}
+
+/* The container <div> - diperlukan untuk memposisikan konten dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Tersembunyi Secara Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links di dalam dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Mengubah warna link dropdown saat mengarahkan kursor */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Tampilkan menu dropdown (gunakan JS untuk menambahkan kelas ini ke .dropdown-content container saat pengguna mengklik tombol dropdown) */
+.show {
+  display: block;
+}
