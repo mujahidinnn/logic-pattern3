@@ -8,7 +8,9 @@ body {
 }
 
 h1 {
+  margin-left: 70px;
   font-weight: bold;
+  color: snow;
 }
 h3 {
   width: 150px;
@@ -17,16 +19,16 @@ h3 {
 }
 
 .header {
-  width: 100%;
+  width: 120%;
   display: flex;
   background-color: #7303c0;
   margin-left: -38px;
-  justify-content: space-around;
+  margin-top: -8px;
 }
 /* Tombol Dropdown */
 label {
-  margin-top: 26px;
-  margin-left: 20px;
+  margin-top: 5px;
+  margin-left: 24px;
   background-color: #3498db;
   color: white;
   padding: 6.9px;
